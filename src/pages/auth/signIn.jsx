@@ -41,7 +41,7 @@ function SignIn() {
               name="userName"
               value={data.userName}
               onChange={handleChange}
-              className="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+              className="appearance-none border-2 border-gray-300 rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
             />
           </div>
           <div className="mb-4 relative">
@@ -57,7 +57,7 @@ function SignIn() {
               name="password"
               value={data.password}
               onChange={handleChange}
-              className="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+              className="appearance-none border-2 border-gray-300 rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
             />
             <FontAwesomeIcon
               icon={showPassword ? faEyeSlash : faEye}
@@ -92,7 +92,7 @@ function SignIn() {
               <img src={Linkedin} alt="Google" className="w-5 h-5" />
             </div>
           </div>
-          <Link to="/signup" className="inline-block align-baseline text-lg text-gray-700">
+          <Link to="/Authentication/signup" className="inline-block align-baseline text-lg text-gray-700">
             Don't have an account? <span className="underline">REGISTER</span>
           </Link>
         </form>

@@ -36,7 +36,7 @@ function SignUp() {
               Username
             </label>
             <input
-              className="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+              className="appearance-none border-2 border-gray-300 rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
               id="username"
               type="text"
               name="userName"
@@ -52,7 +52,7 @@ function SignUp() {
               Email
             </label>
             <input
-              className="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+              className="appearance-none border-2 border-gray-300 rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
               id="email"
               type="email"
               name="email"
@@ -68,7 +68,7 @@ function SignUp() {
               Password
             </label>
             <input
-              className="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+              className="appearance-none border-2 border-gray-300 rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
               id="password"
               type={showPassword ? "text" : "password"}
               name="password"
@@ -110,7 +110,7 @@ function SignUp() {
           </div>
 
           <Link
-            to="/signin"
+            to="/Authentication/signin"
             className="inline-block align-baseline text-lg text-gray-700"
           >
             Already a user? <span className="underline">LOGIN</span>
