@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Authentication/static/css/main.82c75571.css",
-    "main.js": "/Authentication/static/js/main.86bd6497.js",
-    "static/media/Linkedin.svg": "/Authentication/static/media/Linkedin.5810d5c554293c83aad857cf3effed67.svg",
-    "static/media/Facebook.svg": "/Authentication/static/media/Facebook.220c4664a3494c2d2f3b109957f5862a.svg",
-    "static/media/Google.svg": "/Authentication/static/media/Google.4cf72bf7cec0bc69c2c06a8aa5d13d7d.svg",
-    "index.html": "/Authentication/index.html",
-    "main.82c75571.css.map": "/Authentication/static/css/main.82c75571.css.map",
-    "main.86bd6497.js.map": "/Authentication/static/js/main.86bd6497.js.map"
+    "main.css": "/Authentication/signup/static/css/main.82c75571.css",
+    "main.js": "/Authentication/signup/static/js/main.6689f644.js",
+    "static/media/Linkedin.svg": "/Authentication/signup/static/media/Linkedin.5810d5c554293c83aad857cf3effed67.svg",
+    "static/media/Facebook.svg": "/Authentication/signup/static/media/Facebook.220c4664a3494c2d2f3b109957f5862a.svg",
+    "index.html": "/Authentication/signup/index.html",
+    "static/media/Google.svg": "/Authentication/signup/static/media/Google.4cf72bf7cec0bc69c2c06a8aa5d13d7d.svg",
+    "main.82c75571.css.map": "/Authentication/signup/static/css/main.82c75571.css.map",
+    "main.6689f644.js.map": "/Authentication/signup/static/js/main.6689f644.js.map"
   },
   "entrypoints": [
     "static/css/main.82c75571.css",
-    "static/js/main.86bd6497.js"
+    "static/js/main.6689f644.js"
   ]
 }
