@@ -110,7 +110,7 @@ function SignUp() {
           </div>
 
           <Link
-            to="/login"
+            to="/signin"
             className="inline-block align-baseline text-lg text-gray-700"
           >
             Already a user? <span className="underline">LOGIN</span>

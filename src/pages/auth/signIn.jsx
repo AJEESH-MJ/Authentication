@@ -92,7 +92,7 @@ function SignIn() {
               <img src={Linkedin} alt="Google" className="w-5 h-5" />
             </div>
           </div>
-          <Link to="/" className="inline-block align-baseline text-lg text-gray-700">
+          <Link to="/signup" className="inline-block align-baseline text-lg text-gray-700">
             Don't have an account? <span className="underline">REGISTER</span>
           </Link>
         </form>
